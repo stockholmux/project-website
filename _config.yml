@@ -38,12 +38,21 @@ defaults:
     values:
       layout: "author"
       permalink: /:collection/:name
+-
+    scope:
+      path: ''
+      type: events
+    values:
+      layout: event
+      permalink:  events/:title/
 
 collections:
   authors:
     output: true
   partners:
-
+  events:
+    output: true
+    
 paginate: 5
 paginate_path: "/blog/page:num/"
 
