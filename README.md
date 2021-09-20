@@ -73,7 +73,7 @@ If you discover a potential security issue in this project we ask that you notif
 This project is licensed under the [BSD-3-Clause License](LICENSE).
 
 ## Credits
-
+:)
 This website was forked from the BSD-licensed [djangoproject.com](https://github.com/django/djangoproject.com).
 
 ## Copyright
