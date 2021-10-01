@@ -33,7 +33,7 @@ from opensearchpy import OpenSearch
 Installing the JavaScript client in Node.js is through [npm](https://www.npmjs.com/):
 
 ```
-$ npm install opensearch-js
+$ npm install @opensearch-project/opensearch
 ```
 
 You can use it in your script by requiring the module:
