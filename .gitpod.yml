@@ -1,0 +1,6 @@
+tasks:
+  - command: |
+      bundle exec jekyll serve
+ports:
+  - port: 4000
+    onOpen: open-preview
