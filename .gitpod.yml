@@ -1,6 +1,8 @@
 tasks:
-  - before: curl -sSL https://get.rvm.io | bash -s stable --ruby && source /home/gitpod/.rvm/scripts/rvm && rvm install 2.7.2 && gem install bundler
-  - init: bundle install
+  - init: curl -sSL https://get.rvm.io | bash -s stable --ruby && source /home/gitpod/.rvm/scripts/rvm && 
+      rvm install 2.7.2 && 
+      gem install bundler &&
+      bundle install
   - command: bundle exec jekyll build
 ports:
   - port: 4000
