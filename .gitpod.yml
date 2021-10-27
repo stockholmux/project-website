@@ -1,6 +1,6 @@
 tasks:
   - name: dev server
-    init:  gem install bundler &&
+    init:  rvm install 2.7.2 && rvm use 2.7.2 && gem install bundler &&
       bundle install
     command: bundle exec jekyll serve
 ports:
