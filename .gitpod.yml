@@ -1,6 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
   - name: dev server
-    init:  rvm install 2.7.2 && rvm use 2.7.2 && gem install bundler &&
+    init:  gem install bundler &&
       bundle install
     command: bundle exec jekyll serve
 ports:
