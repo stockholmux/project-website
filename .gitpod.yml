@@ -1,7 +1,6 @@
 tasks:
   - name: dev server
-    init: 
-      code .gitpod-load.txt && 
+    init:  
       rvm install 2.7.2 && 
       rvm use 2.7.2 &&
       gem install bundler &&
