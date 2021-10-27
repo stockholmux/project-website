@@ -5,7 +5,7 @@ tasks:
       rvm use 2.7.2 &&
       gem install bundler &&
       bundle install --jobs=4
-    command: bundle exec jekyll serve
+    command: code humans.txt && bundle exec jekyll serve
 ports:
   - port: 4000
     onOpen: open-preview
