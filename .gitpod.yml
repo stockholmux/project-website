@@ -1,12 +1,13 @@
 
 tasks:
+  - init: code .gitpod-load.txt
   - name: dev server
     init: 
       rvm install 2.7.2 && 
       rvm use 2.7.2 &&
       gem install bundler &&
       bundle install --jobs=4
-    command: code .gitpod-load.txt && bundle exec jekyll serve
+    command: bundle exec jekyll serve
 ports:
   - port: 4000
     onOpen: open-preview
