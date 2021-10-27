@@ -9,3 +9,7 @@ tasks:
 ports:
   - port: 4000
     onOpen: open-preview
+
+vscode:
+  workbench:
+    startupEditor: readme
