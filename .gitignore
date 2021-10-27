@@ -9,3 +9,5 @@ vendor
 *.csv
 *.lock
 .bundle
+.vscode/*
+!.vscode/settings.json
