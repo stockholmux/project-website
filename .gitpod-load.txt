@@ -1,0 +1,2 @@
+Please be patient while GitPod is pulling dependencies.
+In a moment, a preview of the website will load in the IDE.
