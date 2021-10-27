@@ -1,11 +1,10 @@
 tasks:
   - name: dev server
-    init:  
-      rvm install 2.7.2 && 
-      rvm use 2.7.2 &&
-      gem install bundler &&
-      bundle install --jobs=4 &&
-      bundle exec jekyll serve
+    command:  docker run --rm \
+      --volume="$PWD:/srv/jekyll" \
+      --publish 4000:4000 \
+      jekyll/jekyll \
+      jekyll serve
 ports:
   - port: 4000
     onOpen: open-preview
